@@ -233,7 +233,6 @@ export default function CartPage() {
       }
 
       if (error) {
-        console.error('Failed to load review reward coupons', error);
         setReviewRewardCoupons([]);
         return;
       }
@@ -866,8 +865,7 @@ export default function CartPage() {
           .filter((suggestion): suggestion is RefreshmentSuggestion => suggestion !== null);
 
         setAiRefreshmentSuggestions(nextSuggestions);
-      } catch (error) {
-        console.error('Failed to load AI cart suggestions', error);
+      } catch {
         if (!cancelled) {
           setAiRefreshmentSuggestions(null);
         }
