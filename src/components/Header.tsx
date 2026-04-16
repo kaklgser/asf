@@ -59,7 +59,7 @@ export default function Header() {
               <img
                 src="https://res.cloudinary.com/dlkovvlud/image/upload/v1771590689/Screenshot_2026-02-20_175222-removebg-preview_ufalk6.png"
                 alt="The Supreme Waffle - Premium Gourmet Waffles"
-                fetchPriority="high"
+                fetchpriority="high"
                 className="h-10 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,215,0,0.15)] sm:h-12 lg:h-14"
               />
             </Link>

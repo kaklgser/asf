@@ -36,7 +36,7 @@ export default function AboutPage() {
           <img
             src="https://images.pexels.com/photos/2103124/pexels-photo-2103124.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop"
             alt="Fresh gourmet waffles from The Supreme Waffle"
-            fetchPriority="high"
+            fetchpriority="high"
             className="w-full h-full object-cover opacity-20"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-brand-bg via-brand-bg/95 to-brand-bg/70" />
